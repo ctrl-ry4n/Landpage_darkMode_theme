@@ -16,10 +16,14 @@
   padding: 3px;
 }
 .button_lightMode{
-
+  background: none;
+  border: none;
+  font-size: 30px;
 }
 .button_darkMode{
-
+  background: none;
+  border: none;
+  font-size: 30px;
 }
 
 .main_lightMode {
@@ -32,7 +36,7 @@
 .main_darkMode {
   align-content: center;
   text-align: center;
-  padding: 10px 10px;
+  padding: 1  0px 10px;
   min-height: 100vh;
   margin: 0 auto;
   background-color: #000000;

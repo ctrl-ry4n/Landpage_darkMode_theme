@@ -2,23 +2,24 @@
 import { useState } from 'react'
 import Image from "next/image";
 import styles from "./page.module.css";
+import { CiDark } from "react-icons/ci";
+import { CiBrightnessUp } from "react-icons/ci";
 
 export default function Home() {
-    const [menuAberto, setMenuAberto] = useState();
+    const [alteraTema, setAlteraTema] = useState(true);
 
     function toogleTheme(){
-      setMenuAberto(!menuAberto)
-      console.log(setMenuAberto)
+      setAlteraTema(!alteraTema)
     };
 
 
   return (
     <>
-      <header className={styles.header_darkMode}>
+      <header className={alteraTema ? styles.header_lightMode : styles.header_darkMode}>
         <h1>Coffe Shop</h1>
-        <button onClick={toogleTheme} >{menuAberto ? "sol" : "lua"}</button>
+        <button onClick={toogleTheme} className={alteraTema ? styles.button_lightMode : styles.button_darkMode}> { alteraTema ? <CiDark/> : <CiBrightnessUp/> }</button>
       </header>
-      <main className={menuAberto ? styles.main_lightMode : styles.main_darkMode}>
+      <main className={alteraTema ? styles.main_lightMode : styles.main_darkMode}>
         <h2>A melhor cafeteria do Brasil</h2>
           <p>Venha conhecer a melhor cafeteria do Brasil!
             Localizada no coração de São Paulo, oferecemos cafés artesanais de alta qualidade e um ambiente acolhedor.
