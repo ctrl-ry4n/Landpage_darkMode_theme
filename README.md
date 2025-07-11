@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ☕ CoffeeShop - Projeto de Aprendizado em React
 
-## Getting Started
+Este é um projeto simples desenvolvido com **React** para fins de estudo e prática de conceitos fundamentais da biblioteca. A ideia do projeto é simular um site de uma cafeteria fictícia, com páginas interativas, tema escuro, navegação entre rotas e componentes reutilizáveis.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Funcionalidades e Aprendizados
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📌 `useState` e manipulação de estado
+- Uso do `useState` para controlar dados dinâmicos da interface como tema escuro, contador e menus.
+- Alteração de estado com eventos como `onClick`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🌗 Tema Dark Mode
+- Alternância entre tema claro e escuro com um botão de toggle.
+- Aplicação de classes dinâmicas com base no estado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📱 Menu Sanduíche (Hamburguer Menu)
+- Implementado para simular navegação mobile responsiva.
+- Visibilidade do menu controlada via estado.
 
-## Learn More
+### 🔁 Props e Componentização
+- Criação de componentes reutilizáveis como `CardProduto`, `Header` e `BotaoTema`.
+- Uso de props para passar dados entre componentes.
 
-To learn more about Next.js, take a look at the following resources:
+### 🧭 React Router
+- Rotas criadas com `react-router-dom` ou estrutura de pastas do App Router (Next.js).
+- Navegação entre páginas como: Home, Sobre, História, Cardápio e Contato.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⚡ Eventos
+- Utilização de eventos `onClick`, `onChange` etc., para interação do usuário com a interface.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🌐 Deploy
+- Projeto hospedado gratuitamente no Vercel ou Netlify.
+- Link de demonstração: _[inserir link aqui]_.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Estrutura de Pastas (Exemplo)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+├── components/
+│ └── Header.jsx
+│ └── CardProduto.jsx
+├── pages/
+│ └── Home.jsx
+│ └── Sobre.jsx
+│ └── Cardapio.jsx
+├── styles/
+│ └── App.css
+├── App.jsx
+└── main.jsx
+📝 Licença
+Este projeto é apenas para fins de aprendizado pessoal.
+
+🙋‍♂️ Autor
+Feito com 💻 por Ryan Ramos.
+Entre em contato: ryanramoscontato@gmail.com
