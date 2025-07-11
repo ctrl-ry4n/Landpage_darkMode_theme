@@ -1,0 +1,9 @@
+.lightMode_button{
+    padding: 10px;
+  border-radius: 20px;
+  background-color: #030303;
+  color: #fff;
+  font-size:medium;
+  font-weight: 400;
+  border: none;
+}

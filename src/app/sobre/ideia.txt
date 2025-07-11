@@ -1,0 +1,83 @@
+1. Home (/)
+Já está pronta, deve ser o destaque da cafeteria:
+
+Foto bonita de café ou ambiente
+
+Slogan: "O melhor café da cidade"
+
+Botão "Conheça nossas lojas" ou "Veja o cardápio"
+
+2. Sobre Nós (/sobre)
+Fala da missão da cafeteria, quem são vocês
+
+Pode conter:
+
+Breve história
+
+Fotos da equipe ou do local
+
+Texto estilo:
+"Somos apaixonados por café artesanal e criamos um ambiente acolhedor para nossos clientes desde 2010."
+
+3. Nossa História (/historia)
+Página mais detalhada e emocional:
+
+Como a cafeteria começou
+
+Obstáculos, crescimento, sonhos
+
+Linha do tempo visual (ex: 2010 - primeira loja, 2015 - expansão)
+
+4. Cardápio (/cardapio)
+Lista de produtos:
+
+Café Espresso
+
+Cappuccino
+
+Latte
+
+Bolos e doces
+
+Layout em cards ou blocos com preço e descrição
+
+5. Contato ou Nossas Lojas (/contato ou /lojas)
+Mapa da localização
+
+Endereço
+
+Telefone / WhatsApp
+
+Botão "Como chegar"
+
+🎨 Exemplo Visual de Menu:
+css
+Copiar
+Editar
+[ Home ]  [ Sobre Nós ]  [ Nossa História ]  [ Cardápio ]  [ Contato ]
+Ou com ícones minimalistas, dependendo do estilo do site.
+
+✅ Sugestão de Nomes de Páginas:
+Nome Visual da Página	URL (rota)	Conteúdo
+Home	/	Slogan, imagem, botão destaque
+Sobre Nós	/sobre	Missão, equipe, diferencial
+Nossa História	/historia	Linha do tempo, história da marca
+Cardápio	/cardapio	Produtos e preços
+Nossas Lojas / Contato	/contato ou /lojas	Endereço e informações
+
+✅ Extras para Deixar o Site Mais Rico:
+✔ Botão Dark Mode (já está implementando)
+✔ Rodapé com redes sociais
+✔ Imagem de fundo bonita nas seções
+✔ Ícones sutis para menus e botões
+
+💡 Conclusão:
+Você pode começar criando essas pastas no src/app:
+
+bash
+Copiar
+Editar
+/app/sobre/page.jsx
+/app/historia/page.jsx
+/app/cardapio/page.jsx
+/app/contato/page.jsx
